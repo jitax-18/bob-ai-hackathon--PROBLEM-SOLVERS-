@@ -1,21 +1,16 @@
-# Problem Statement
+# Problem Statement: Substation Equipment Defect Prediction
 
 ## Background
-
-[Describe the broader context. What domain or industry does this problem belong to? What situation creates the problem?]
+This problem belongs to the electrical utility and power grid distribution sector. High-voltage substations rely on massive transformer units to step down electricity for distribution. The critical challenge is tracking the ongoing health of these multi-million dollar physical assets while they operate continuously under high stress.
 
 ## The Problem
-
-[State the problem clearly and specifically. Avoid vague statements like "things are slow" — instead say "Operations teams spend an average of 45 minutes per incident diagnosing pipeline failures because logs are scattered across 6 different tools."]
+Power grid operations teams currently manage equipment using outdated calendar schedules, completely ignoring real-time telemetry markers. Critical internal stress data—such as core internal temperatures, structural mechanical winding vibrations, and dissolved combustible gas accumulation in insulating oil—are kept isolated from external parameters like changing localized severe storm weather maps.
 
 ## Who is Affected
-
-[Describe the specific user or persona experiencing this problem. Be concrete — not "developers" but "backend engineers managing CI/CD pipelines in enterprises with 50+ microservices."]
+This problem directly impacts power grid operations engineers, substation asset performance management teams, and regional electrical utilities who are responsible for maintaining grid load balancing, asset uptime, and field technician dispatch protocols.
 
 ## Why It Matters
-
-[What is the cost of this problem? Lost time? Revenue? Safety risk? Frustration? Quantify if possible.]
+When a critical transformer fails unexpectedly, it triggers catastrophic structural damage, physical refinery explosions, and widespread grid failures. These blackouts disrupt regional medical facilities and heavy industrial consumer manufacturing, costing electric utility providers more than $1M per hour in infrastructure losses, stabilization fines, and emergency technician field overtime.
 
 ## Why Existing Solutions Fall Short
-
-[Briefly explain what people currently do and why it doesn't fully solve the problem. This sets up why your solution is needed.]
+Current utility management frameworks run on manual physical inspection cycles every 6 to 12 months. When anomalies pop up between these check-ins, teams have no way of knowing. Meanwhile, modern digital sensor dashboards act as passive alarm panels—they throw text warnings without calculating an integrated risk score or cross-referencing incoming storm weather alerts to help teams plan field operations.
