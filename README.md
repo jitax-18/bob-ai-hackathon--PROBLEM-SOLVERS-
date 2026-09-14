@@ -8,7 +8,7 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [GridGuardian] |
+| **Team Name** | [PROLEM SOLVER] |
 | **Track** | [AI] |
 | **Team Lead** | [Stuti Patel] — [26EC112@charusat.edu.in] |
 | **Members** | [Jitax Khunt], [Rushil Rank], [Pratham Lad] |
