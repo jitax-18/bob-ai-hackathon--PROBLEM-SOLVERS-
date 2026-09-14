@@ -118,39 +118,31 @@ bob-ai-hackathon-[your-team-name]/
 
 This is the **first file the evaluators read**. Fill it in carefully and completely.
 
-```yaml
 team:
-  name: "Orion Squad"                   # Your team name
-  track: "AI"                           # AI | DevOps | Sustainability | Open
+  name: "PROBLEM SOLVERS"
+  track: "AI"
   lead:
-    name: "Alice Chen"
-    email: "alice.chen@ibm.com"
+    name: "Stuti Patel"
+    email: "26EC112@charusat.edu.in"
   members:
-    - name: "Bob Singh"
-      email: "bob.singh@ibm.com"
-    - name: "Carol Yu"
-      email: "carol.yu@ibm.com"
-
+    - name: "Jitax Khunt"
+      email:  "26EC056@charusat.edu.in"
+    - name: "Rushil Rank"
+      email:  "26EC128@charusat.edu.in"
+    - name: "Pratham Lad"
+      email:  "26EC061@charusat.edu.in"
 submission:
-  title: "SmartOps Dashboard"
+  title: "GridPulse: Rule-Based Predictive Maintenance Advisor for Substations"
   problem_statement: >
-    DevOps teams at IBM spend 3+ hours per incident manually correlating
-    logs across 12 tools. This delays MTTR and causes alert fatigue for
-    on-call engineers.
+    Power utilities rely on calendar-based maintenance schedules, ignoring critical early signals from transformer sensors. This leads to catastrophic grid failures costing millions. Current systems fail to combine real-time physical sensor data with predictive external risk parameters like severe weather alerts.
   solution_summary: >
-    SmartOps ingests logs from all observability tools via a unified
-    MCP connector and uses watsonx.ai to surface the root cause and
-    recommended fix in a single conversational interface.
+    GridPulse is a lightweight, high-performance rule-based advisor written in C that processes asset health parameters (temperature, oil quality, vibration) alongside weather severity index values. It calculates an integrated Grid Failure Risk Score using a deterministic weighted matrix to classify asset state and generate immediate priority maintenance plans.
   key_features:
-    - "Unified log ingestion from Instana, PagerDuty, and GitHub Actions"
-    - "Root cause classification using watsonx.ai Granite 3.0"
-    - "Natural language incident summaries via IBM Bob integration"
-    - "One-click runbook execution"
-```
+    - "Multi-sensor telemetry data ingestion interface"
+    - "Weighted Risk Index Matrix using deterministic ECE threshold limits"
+    - "Dynamic weather severity scale modifier integration"
+    - "Automated maintenance prioritization and dispatch classification"
 
-**Rules:**
-- Every field marked `# REQUIRED` must be filled — blank strings will fail validation
-- Do not rename this file
 
 ---
 
