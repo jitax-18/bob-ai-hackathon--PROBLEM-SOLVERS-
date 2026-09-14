@@ -50,7 +50,7 @@ Additionally, the platform provides crew pre-positioning plans for upcoming weat
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [Python] |
+| **Languages** | [C] |
 | **Frameworks** | [FastAPI, React,Tailwind CSS] |
 | **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
 | **Databases** | [PostgreSQL] |
