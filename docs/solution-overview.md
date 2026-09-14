@@ -16,7 +16,6 @@ The core mechanism executes through a strict, deterministic sequence:
 
 > See [`architecture.md`](architecture.md) for the detailed diagram.
 
-[Substation Sensors] ──┐├──> [GridPulse Core Engine (C)] ──> [Weighted Threshold Matrix] ──> [Operational Action Brief][IBM Bob Weather ID] ──┘
  
 ## Key Design Decisions
 
